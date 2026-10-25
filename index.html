@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#F6F1E8" />
+    <title>Игорь и Яна · 04.06.2027</title>
+    <meta name="description" content="Приглашение на свадьбу Игоря и Яны, 4 июня 2027 года." />
+    <link rel="icon" href="/igor-i-yana/favicon.svg" type="image/svg+xml" />
+    <!-- Первым делом конверт: это единственное, что гость видит до нажатия.
+         Остальные шрифты и картинки грузятся следом и канал у него не отнимают. -->
+    <link rel="preload" href="/igor-i-yana/img/envelope.jpg" as="image" fetchpriority="high" />
+    <link rel="preload" href="/igor-i-yana/fonts/script.woff" as="font" type="font/woff" crossorigin />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Игорь и Яна · 04.06.2027" />
+    <meta property="og:description" content="Приглашаем разделить с нами день нашей свадьбы." />
+    <style>
+      /* Конверт рисуется ещё до того, как загрузится React: иначе гость на
+         слабой сети несколько секунд смотрит в пустой экран. Слой убирается,
+         как только заставка смонтировалась. */
+      #boot {
+        position: fixed;
+        inset: 0;
+        background: #f6f1e8 url('/igor-i-yana/img/envelope.jpg') center / cover no-repeat;
+      }
+    </style>
+    <script type="module" crossorigin src="/igor-i-yana/assets/index-ge0Nv2_G.js"></script>
+    <link rel="stylesheet" crossorigin href="/igor-i-yana/assets/index-Dj6yA5Fp.css">
+  </head>
+  <body>
+    <div id="boot"></div>
+    <div id="root"></div>
+  </body>
+</html>
