@@ -10,7 +10,8 @@ Error generating stack: `+e.message+`
 Набережная улица, 1`,mapUrl:`https://yandex.by/maps/?text=%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%2C%20%D0%B0%D0%B3%D1%80%D0%BE%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%BE%D0%BA%20%D0%A1%D0%B5%D0%BD%D0%B8%D1%86%D0%B0%2C%20%D0%9D%D0%B0%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%BD%D0%B0%D1%8F%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%2C%201`},programme:[{time:`15:00`,title:`Сбор гостей
 и фуршет`,icon:`champagne`},{time:`16:00`,title:`Торжественная
 выездная
-регистрация`,icon:`rings`},{time:`17:00`,title:`Праздничный
+регистрация
+брака`,icon:`rings`},{time:`17:00`,title:`Праздничный
 банкет`,icon:`cloche`},{time:`23:00`,title:`Окончание
 вечера`,text:`Но усадьба
 открыта до утра`,icon:`cake`}],wishes:{text:`Ваша улыбка и хорошее настроение -
@@ -24,7 +25,7 @@ Error generating stack: `+e.message+`
 В планах: горячий шашлык,
 баня и полный релакс.`,note:`Координаты секретного места
 пришлём вам лично!`},chat:{text:`Новости, фото и все важные
-детали праздника в нашем чате`,url:`https://t.me/+BhyyH7WUKbJkM2Yy`,label:`Чат в Telegram`},rsvp:{deadline:`до 28 февраля 2027 года`,endpoint:`https://script.google.com/macros/s/AKfycbyB5cj5ekXhooopIuyBa5Nu867VzHhshIrZ93LzNRAlg531FdeOk7-uruWpSM_GU-iNzw/exec`,questions:[{kind:`attend`,key:`attending`,label:`Будете ли вы на свадьбе?`,yes:`Да`,no:`К сожалению, не смогу`},{kind:`text`,key:`name`,label:`Как вас зовут?`,placeholder:`Имя и фамилия`,required:!0},{kind:`number`,key:`guests`,label:`Напишите количество гостей от вас`,placeholder:`Например, 2`,ifAttending:!0},{kind:`yesno`,key:`secondDay`,label:`Будете ли вы на второй день?`,ifAttending:!0},{kind:`yesno`,key:`lodging`,label:`Нужен ли вам ночлег?`,ifAttending:!0},{kind:`multi`,key:`alcohol`,label:`Какой алкоголь вы предпочитаете?`,options:[`Виски`,`Вино`,`Коньяк`,`Водка`,`Не пью`],exclusive:`Не пью`,ifAttending:!0},{kind:`long`,key:`song`,label:`Оставьте вашу любимую песню`,placeholder:`Исполнитель и название`,ifAttending:!0}]},copy:{intro:`Скоро состоится важное
+детали праздника в нашем чате`,url:`https://t.me/+BhyyH7WUKbJkM2Yy`,label:`Чат в Telegram`},rsvp:{deadline:`до 28 февраля 2027 года`,endpoint:`https://script.google.com/macros/s/AKfycbyB5cj5ekXhooopIuyBa5Nu867VzHhshIrZ93LzNRAlg531FdeOk7-uruWpSM_GU-iNzw/exec`,questions:[{kind:`attend`,key:`attending`,label:`Будете ли вы на свадьбе?`,yes:`Да`,no:`К сожалению, не смогу`},{kind:`text`,key:`name`,label:`Как вас зовут?`,placeholder:`Имя и фамилия`,required:!0},{kind:`number`,key:`guests`,label:`Напишите количество гостей от вас`,placeholder:`Например, 2`,ifAttending:!0},{kind:`yesno`,key:`secondDay`,label:`Будете ли вы на второй день?`,ifAttending:!0},{kind:`yesno`,key:`lodging`,label:`Нужен ли вам ночлег?`,ifAttending:!0},{kind:`multi`,key:`alcohol`,label:`Какой алкоголь вы предпочитаете?`,options:[`Виски`,`Вино`,`Шампанское`,`Коньяк`,`Водка`,`Не пью`],exclusive:`Не пью`,ifAttending:!0},{kind:`long`,key:`song`,label:`Оставьте вашу любимую песню`,placeholder:`Исполнитель и название`,ifAttending:!0},{kind:`long`,key:`wishes`,label:`Оставьте, пожалуйста, свои пожелания`,placeholder:`Например, аллергия на продукты`}]},copy:{intro:`Скоро состоится важное
 и радостное для нас событие -
 **наша свадьба**!`,invite:`Этот день станет особенным для нас,
 и мы хотим разделить его с теми,
